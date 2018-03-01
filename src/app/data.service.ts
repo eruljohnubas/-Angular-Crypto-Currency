@@ -1,8 +1,3 @@
 import { Injectable } from '@angular/core';
-
-@Injectable()
-export class DataService {
-
-  constructor() { }
-
-}
+import { HttpClient } from '@angular/common/http';
+import 'rxjs/add/operator/map';
